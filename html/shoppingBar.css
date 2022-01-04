@@ -1,0 +1,42 @@
+#link{
+    color: white;
+    background-color: #22252a;
+    text-align: center;
+    font-size: larger;
+}
+#linka{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: white;
+    font-size: x-large;
+}
+.dropdownx {
+    width: 300px;
+    position: relative;
+}
+.click,.links {
+    border: none;
+    width: 300px;
+    background-color: white;
+    font-size: 1.3rem;
+    display: block;
+}
+.click:hover {
+    color: darkgrey;
+}
+.dropdown-menu1{
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+}
+.activeDropdown{
+    transform: scaleY(1);
+}
+.links:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}

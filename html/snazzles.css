@@ -1,0 +1,214 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+    body{
+    font-family: 'Arima', sans-serif;
+}
+
+#mainNavBar {
+    background-color: #222529;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5em;
+    border: solid 1px #222529;
+}
+
+#mainNavBar a:hover {
+    color: grey;
+}
+
+#mainNavBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+#carouselBG{
+    width: 100%;
+    height: auto;
+    background-color: #222529;
+    display: flex;
+    justify-content: center;
+}
+.carousel{
+    width: 100em;
+}
+
+#cart{
+    background-color: white;
+    border: solid 5px #535c68;
+    border-radius: 50px;
+    width: 5rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cart:hover {
+    width: 5.5rem;
+    height: 3.5rem;
+    transition: all 0.2s;
+}
+
+#featuredBrands {
+    width: 30px;
+}
+.solid{
+    width: 95%;
+    margin-bottom: 100px;
+    margin-left: 1.2%;
+    border-bottom: solid 5px gray;
+    border-radius: 5px;
+}
+h2{
+    margin-top: 20px;
+    margin-left: 2%;
+    font-size: 50px;
+}
+
+
+#greetings {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+.categoryNavBar{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #222529;
+    height: 5em;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.categoryNavBar h3{
+    margin-top: 5px;
+    margin-left: 1.8rem;
+    display: flex;
+    font-size: 35px;
+}
+.categoryNavBar a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.categoryNavBar a:hover {
+    color: grey;
+}
+
+.categoryNavBar--items{
+    display: flex;
+    justify-content: space-around;
+}
+.sidebar h3{
+    margin-left: 1rem;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.itemSection{
+    justify-content: space-evenly;
+}
+#cart{
+    background-color: white;
+    border: solid 5px #535c68;
+    border-radius: 50px;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cart:hover {
+    width: 10.5rem;
+    height: 3.5rem;
+    transition: all 1.5s;
+}
+
+#packagesSection{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+#packages {
+    color: white;
+    background: rgb(34,37,41);
+    background: linear-gradient(90deg, rgba(34,37,41,1) 0%, rgba(1,28,45,1) 50%, rgba(34,37,41,1) 100%);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    height: 35rem;
+}
+.packages-btn {
+    background-color: white;
+    color: black;
+    border:none;
+    top: 160px;
+    border-radius: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    bottom: 30px;
+    position: relative;
+}
+.packageContent {
+    border-left: solid 1px white;
+    height: 560px;
+    text-align: center;
+}
+
+
+#carouselBG{
+    width: 100%;
+    height: auto;
+    background-color: #222529;
+    display: flex;
+    justify-content: center;
+}
+#carouselBG{
+    background: rgb(34,37,41);
+    background: linear-gradient(90deg, rgba(34,37,41,1) 0%, rgba(1,28,45,1) 50%, rgba(34,37,41,1) 100%);
+}
+.carousel{
+    padding-top: 1.5em;
+    width: 70em;
+}
